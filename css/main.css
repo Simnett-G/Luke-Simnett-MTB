@@ -1,0 +1,61 @@
+/***** BASE STYLES *****/
+
+@font-face {
+  font-family: 'nashville';
+  src: url('../fonts/Nashville-z8w0.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 600px;
+  background: url('../img/luke-mtb-1-crop-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+
+}
+
+ul {
+  color: #ffff66;
+  float: right;
+  font-weight: bold;
+  font-family: 'nashville';
+  list-style: none;
+  font-size: 170px;
+  margin-top: 50px;
+  margin-right: 150px;
+  opacity: 0.75;
+
+}
+
+#name {
+  color: #1e81fa;
+  font-size: 120px;
+  line-height: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+  opacity: 0.75;
+}
