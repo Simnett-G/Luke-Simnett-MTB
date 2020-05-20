@@ -5,37 +5,41 @@
   src: url('../fonts/Nashville-z8w0.ttf') format('truetype');
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: 'Do Hyeon', sans-serif;
+  width: 100%;
 }
 
 
 /***** GRID *****/
 
 .full-width {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 600px;
+  width: 50%;
   float: left;
 }
 
 .third-width {
-  width: 400px;
+  width: 33.33333%;
   float: left;
 }
 
 /***** HEADER *****/
 
 header {
-  height: 600px;
+  height: 700px;
   background: url('../img/luke-mtb-1-crop-3.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 30px;
-
+  background-size: cover;
+  margin-top: 2em;
 }
 
 ul {
@@ -44,18 +48,22 @@ ul {
   font-weight: bold;
   font-family: 'nashville';
   list-style: none;
-  font-size: 170px;
-  margin-top: 50px;
-  margin-right: 150px;
+  font-size: 10.625em;
+  margin-top: 0.5em;
+  margin-right: 0.75em;
   opacity: 0.75;
-
 }
+
 
 #name {
   color: #1e81fa;
-  font-size: 120px;
-  line-height: 100px;
-  margin-top: 10px;
-  margin-left: 20px;
-  opacity: 0.75;
+  font-size: 8.125em;
+  line-height: 1;
+  margin-top: 0.2em;
+  margin-left: 0.2em;
+  opacity: 0.8;
 }
+
+/*-----------------ABOUT-SECTION-----------------*/
+
+
